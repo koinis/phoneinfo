@@ -1,7 +1,5 @@
 This is a python program which could be used as an information gathering tool about phone numbers.
 
-The program needs installation of the modules phonenumbers and datetime, via terminal to work properly.
-
 This program gives info about a phone number which the user inputs (mobile phone number and home phone number)
 It works succesfully with countries of different continents. (The program needs the country code in front of the phone number in order to work right. (eg +30 -> Greece, +34 Spain etc))
 
