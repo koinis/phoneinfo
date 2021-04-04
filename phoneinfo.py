@@ -30,12 +30,12 @@ while check == True:
         number = input("Enter a phone number: ") #Ask the phone number (The number which is given must starts with the right country code (eg +30 for Greece, +34 for Spain, etc.)
                 
         try:
-            phone_number = phonenumbers.parse(number, "CH")
+            phone_number = phonenumbers.parse(number, "EU")
 
             print("Number: ", number)
             print("Country or City: ", geocoder.description_for_number(phone_number, "en")) #print the Country (or the City if it is a home phone number) in which the number is registered
                                 
-            service_number = phonenumbers.parse(number, "RO")
+            service_number = phonenumbers.parse(number, "EU")
 
             print("Carrier: ", carrier.name_for_number(service_number, "en")) #print the carrier of the phone number (It works with mobile numbers)
                                 
