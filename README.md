@@ -6,8 +6,9 @@ This program gives info about a phone number which the user inputs (mobile phone
 It works succesfully with countries of different continents, but if not, maybe you have to make little changes in the second argument of the function parse, as it is specify the place that the phone number is being dialled from (unless the number is in E.164 format, which is globally unique). As a first option the second argument of parse is specified as "EU". 
 
 
+# NOTE:
 
-IMPORTANT NOTE: The program needs the country code in front of the phone number in order to work right. (eg +30 -> Greece, +34 -> Spain etc)
+The program needs the country code in front of the phone number in order to work right. (eg +30 -> Greece, +34 -> Spain etc)
 
 
 # Possibilities:
