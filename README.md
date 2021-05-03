@@ -12,7 +12,7 @@ python3 phoneinfo.py
 
 ### Note: 
 
-Requires 20-30 seconds to start
+Requires 15-30 seconds to start
 
 ## NOTE:
 
