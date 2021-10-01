@@ -10,10 +10,6 @@ It works succesfully with countries of different continents, but if not, maybe y
 
 python3 phoneinfo.py
 
-### Note: 
-
-Requires 15-30 seconds to start
-
 ## NOTE:
 
 The program needs the country code in front of the phone number in order to work right. (eg +30 -> Greece, +34 -> Spain etc)
