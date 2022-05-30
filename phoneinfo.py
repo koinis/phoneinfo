@@ -5,8 +5,8 @@ from phonenumbers import carrier
 from phonenumbers import timezone
 from datetime import datetime
  
-phoneinfo = text2art("phoneinfo")
-print(phoneinfo)
+#phoneinfo = text2art("phoneinfo")
+#print(phoneinfo)
 
 number = input("Enter a phone number: ")
 
@@ -45,5 +45,5 @@ except Exception:
     print("Carrier not found")
 
     
-message = text2art("Made by mrpol")
-print(message)
+#message = text2art("Made by mrpol")
+#print(message)
