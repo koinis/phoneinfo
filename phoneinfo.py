@@ -1,12 +1,10 @@
 import phonenumbers
-from art import *
+
 from phonenumbers import geocoder
 from phonenumbers import carrier
 from phonenumbers import timezone
 from datetime import datetime
  
-#phoneinfo = text2art("phoneinfo")
-#print(phoneinfo)
 
 number = input("Enter a phone number: ")
 
@@ -38,12 +36,25 @@ try:
             now = datetime.now()
             date_str = now.strftime("%d/%m/%Y %H:%M:%S")
             print("Date and time of searching:", date_str) #prints the date and the time of searching
+
                                     
 except Exception:
     print("Error!")
     print("Country or city not found")
     print("Carrier not found")
 
-    
-#message = text2art("Made by mrpol")
-#print(message)
+try:
+    from googlesearch import search
+except ImportError:
+    print("No results found")
+
+print("_______________", "***************", "_______________", "***************", sep="\n")
+
+# to search
+query = number
+ 
+for j in search(query, tld="co.in", num=10, stop=10, pause=2):
+    print(j)    
+
+
+
